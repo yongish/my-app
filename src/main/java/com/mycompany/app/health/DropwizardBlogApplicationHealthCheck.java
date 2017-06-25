@@ -1,7 +1,7 @@
 package com.mycompany.app.health;
 
 import com.codahale.metrics.health.HealthCheck;
-import com.mycompany.app.PartsService;
+import com.mycompany.app.service.PartsService;
 
 public class DropwizardBlogApplicationHealthCheck extends HealthCheck {
     private static final String HEALTHY = "The Dropwizard blog Service is healthy for read and write";

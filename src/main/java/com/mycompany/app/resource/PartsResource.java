@@ -2,7 +2,7 @@ package com.mycompany.app.resource;
 
 import com.codahale.metrics.annotation.Timed;
 import com.mycompany.app.model.Part;
-import com.mycompany.app.PartsService;
+import com.mycompany.app.service.PartsService;
 import com.mycompany.app.representation.Representation;
 import org.eclipse.jetty.http.HttpStatus;
 

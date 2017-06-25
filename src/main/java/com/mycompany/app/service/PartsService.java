@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.service;
 
 import com.mycompany.app.dao.PartsDao;
 import com.mycompany.app.model.Part;

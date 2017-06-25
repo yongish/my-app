@@ -6,6 +6,7 @@ import com.mycompany.app.auth.User;
 import com.mycompany.app.config.DropwizardBlogConfiguration;
 import com.mycompany.app.health.DropwizardBlogApplicationHealthCheck;
 import com.mycompany.app.resource.PartsResource;
+import com.mycompany.app.service.PartsService;
 import io.dropwizard.Application;
 import io.dropwizard.auth.AuthDynamicFeature;
 import io.dropwizard.auth.oauth.OAuthCredentialAuthFilter;
